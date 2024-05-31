@@ -17,7 +17,7 @@ table.mytable td{
 }
 .overflow{
     color: black;
-    background-color: aquamarine;
+    background-color: rgb(66, 66, 66);
     overflow-y: auto;
     font-size: 20px;
     padding-left: 20px;
@@ -51,7 +51,7 @@ table.mytable td{
     height: 300px;
     text-align: center;
     color: white;
-    background-color: blueviolet;
+    background-color: rgb(66, 66, 66);
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
@@ -68,3 +68,63 @@ span.font{
     font-size: larger;
     color:rgb(0, 0, 0);
 }
+.indeximg{
+    height: 600px;
+    width: 700px;
+}
+.indexh2{
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+}
+.indexh3{
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+}
+/* 定義一個類，用於設定初始背景顏色 */
+.hover-background {
+    background-image: url(../assets/bg1.jpg); /* 初始背景顏色 */
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease; /* 背景顏色變化時的過渡效果 */
+}
+
+/* 定義鼠標懸停時的背景顏色 */
+.hover-background:hover {
+    background-image: url(../assets/bg2.jpg); /* 懸停時的背景顏色 */
+}
+.image-container {
+    display: inline-block;
+}
+.image-container img {
+    display: block;
+    transition: transform 0.2s ease-in-out;
+}
+.image-container:hover img {
+    animation: heartbeat 0.3s ease-in-out;
+}
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    25%, 75% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+.social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 6rem;
+    width: 6rem;
+    background-color:#495057;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 3.5rem;
+    margin-right: 2rem;
+    margin-top: 5rem;
+  }
