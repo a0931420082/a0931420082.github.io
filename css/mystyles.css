@@ -25,7 +25,7 @@ table.mytable td{
     padding-top: 10px;
     padding-bottom: 10px;
     height: 300px;
-    margin: -70px;
+    margin: -100px;
     margin-top: 10px;
 }
 .abouth2{
@@ -42,8 +42,10 @@ table.mytable td{
     margin-top: 20px;
     font-size: 50px;
     margin-left: 20px;
-    font-weight: bolder
+    font-weight: bolder;
+    margin-bottom: 20px;
 }
+/*index*/
 .overflow1{
     overflow-y: auto;
     height: 300px;
@@ -57,4 +59,12 @@ table.mytable td{
     margin-left: 80px;
     margin-right: 80px;
     font-size: 30px;
+    border-radius: 5px;
+    width: 80%;
+    box-align:center;
+}
+span.font{
+    font-weight:bolder;
+    font-size: larger;
+    color:rgb(0, 0, 0);
 }
