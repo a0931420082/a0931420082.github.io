@@ -180,9 +180,9 @@ span.faqfont1{
 span.hr{
     font-weight: bolder;
 }
-.hoverfont{
-    font-size: 20px;
-}
+
+
+
 .hoverfont:hover{
     font-size: 25px;
 }
