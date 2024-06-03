@@ -235,6 +235,7 @@ span.link{
 }
 .zoom-effect {
     transition: transform 0.3s; /* 添加過渡效果 */
+
 }
 
 .zoom-effect:hover {
